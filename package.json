@@ -1,0 +1,30 @@
+{
+  "name": "paginaweb22",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000A\u0000G\u0000I\u0000N\u0000A\u0000W\u0000E\u0000B\u00002\u00002\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:html": "html-validate \"**/*.html\"",
+    "check:css": "stylelint \"**/*.css\"",
+    "check:js": "eslint \"**/*.js\"",
+    "check": "npm run check:html && npm run check:css && npm run check:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulEMarquez/PAGINAWEB22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulEMarquez/PAGINAWEB22/issues"
+  },
+  "homepage": "https://github.com/RaulEMarquez/PAGINAWEB22#readme",
+  "dependencies": {
+    "eslint": "^10.11.0",
+    "html-validate": "^10.9.0",
+    "stylelint": "^17.15.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
